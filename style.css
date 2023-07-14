@@ -1,0 +1,76 @@
+/* Body and general styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #FFC107;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #3F51B5;
+    color: #FFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #3F51B5;
+}
+
+/* Project styles */
+.project {
+    background-color: #E91E63;
+    color: #FFF;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #FFF;
+}
+
+/* Footer styles */
+footer {
+    background-color: #9C27B0;
+    color: #FFF;
+    padding: 20px;
+    text-align: center;
+}
